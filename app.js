@@ -183,11 +183,6 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs))
  *        in: formData
  *        required: true
  *        type: number
- *      - name: message
- *        description: Message to send
- *        in: formData
- *        required: true
- *        type: string
  *      responses: 
  *          200:
  *              description: Success
